@@ -1,0 +1,38 @@
+Importancia de los sensores 
+fuente de informacion (monitoreo y control)
+Tambien conocidos como:
+-Receptor
+-Transductor
+-Detector
+-Transmisor
+
+
+La señal 
+La señal electrica entregada por un sensor contiene informacion acerca del fenomeno detectado. La informacion esta contenida en alguna, o  varias, de las características de las señales eléctricas:
+-Nivel de voltaje
+-Intensidad de corriente
+-Frecuencia
+-etc
+
+El acondicionamiento de las señal 
+Cada sensor sule presentar una respuesta electrica diferente, por lo que es necesario enviarla a un elemento acondicionador.
+La principal funcion del acondicionador de señal es recoger una señal y transformarla en una señal y transformarla en una señal electrica de mejor calidad o normalizada para poder procesarla.
+-Filtrado 
+-Amplificacion 
+-Correccion 
+
+El sistema sensor
+Sensor + acondicionador = sistema sensor
+
+Sensores industriales
+Sistemas sensores que pueden operae en un entorno industrial
+En general se tienen dos tipos de sensores:
+-sensores normales
+-sensores inteligentes
+
+Clasificacion de los sensores
+-Segun el principio de funcionamiento 
+-Segun el tipo de señal electrica que genera
+-Segun el rango de valores que proporcionan 
+-Segun el nivel de integracion
+-Segun el tipo de variable fisica medida

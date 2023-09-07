@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Add To Cart - JS 🛒</title>
+    <title>Add To Cart - Js 🛒</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="max-width: 95vw!important;">
         <div class="row" style="height: 20vh;">
             <p>Universidad de Guanajuato</p>
-            <p>Campus Irapuato-Salamanca DICIS</p>
-            <P>Elian Alejandro Galindo Valencia NUA:147715</P>
+            <p>Campus Irapuato-Salamanca - DICIS</p>
+            <P>Elian Alejandro Galindo Valencia  NUA:147715</P>
         </div>
         <div class="row" style="height: 80vh;" style="overflow-y: scroll;">
             <div class="col-8">
@@ -63,6 +63,39 @@
         </div>
     </template>
 
+
+    <!--template footer-->
+    <template id="template-footer">
+        <th colspan="2" scope="row">
+            Total Productos
+        </th>
+        <td>10</td>
+        <td>
+            <button style= "width: 100%;" class="btn btn-danger btn-sm" id="vaciar-carrito">
+                Vaciar carrito
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>500</span></td>
+    </template>
+    <!--template para el item comprado-->
+    <template id="template-carrito">
+        <tr>
+            <th scope="row">id</th>
+            <td>modelo</td>
+            <td>1</td>
+            <td style="text-align: center;">
+                <button class="btn btn-warning btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>
+                $ <span>500</span>
+            </td>
+        </tr>
+    </template>
 
     <script src="./js/app.js"></script>
 </body>
